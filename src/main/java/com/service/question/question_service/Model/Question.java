@@ -1,9 +1,8 @@
-package com.service.question.question_service;
+package com.service.question.question_service.Model;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "question")  // Optional, helps avoid reserved keyword issues
 public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
